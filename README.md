@@ -1,5 +1,5 @@
 <div>
-    <h1 align="center">The Lgend Jack Kirby</h1>
+    <h1 align="center">The Legend Jack Kirby</h1>
 </div>
 
 A tribute page for the master of comic books.
