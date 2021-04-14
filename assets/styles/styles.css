@@ -128,35 +128,16 @@ button:hover {
     font-size:40px;
     color: white;
     font-family: 'Assistant', sans-serif;
-}
-
-a {
-    text-decoration: none;
-    
-}
-
-a:hover {
-    text-decoration: none;
-
-}
-
-@media (max-width: 600px) {
-
+    cursor: pointer;
 }
 
 @media (max-width: 1127px) {
     .container {
-        display: flex;
-        background-color: rgb(37, 35, 59);
-        padding-top: 70px;
-        padding-bottom:100px;
         flex-direction: column;
         align-items: center;
     }
 
     .image {
-        height: 600px;
-        width: 500px;
         position: relative;
         padding-right: 0px;
     }
@@ -164,7 +145,6 @@ a:hover {
     .description {
         height: 720px;
         width: 500px;
-        background-color: rgb(230, 98, 98);
         margin-left: 0px;
         margin-right: 0px;
         margin-top: 10px;
@@ -172,7 +152,23 @@ a:hover {
     
     .titles {
         padding-left: 60px;
-        padding-right: 60px;
-        padding-top: 50px;
+    }
+
+    .ww2 {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .jack-veteran {
+        margin-right: 0px;
+        margin-bottom: 40px;
+        height: 300px;
+        width: 600px;
+    }
+
+    .comic {
+        margin-top:80px;
+        flex-direction: column-reverse;
+        align-items: center;
     }
 }
